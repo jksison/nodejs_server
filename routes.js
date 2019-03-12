@@ -48,7 +48,7 @@ const requestHandler = (req, res) => {
       res.statusCode = 302;
       return res.end();
    }
-
+   
    res.setHeader('Content-Type', 'text/html');
    res.write('<html>');
    res.write('<header><title>Greetings</title></header>');
